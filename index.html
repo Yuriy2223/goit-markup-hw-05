@@ -29,7 +29,7 @@
           >
           <ul class="header-list list">
             <li class="header-item">
-              <a href="./index.html" class="header-link link">Studio</a>
+              <a href="./index.html" class="header-link link current">Studio</a>
             </li>
             <li class="header-item">
               <a href="./portfolio.html" class="header-link link">Portfolio</a>
@@ -62,7 +62,9 @@
             Effective Solutions
             <div>for Your Business</div>
           </h1>
-          <button type="button" class="hero-button">Order Service</button>
+          <button type="button" data-modal-open class="hero-button">
+            Order Service
+          </button>
         </div>
       </section>
       <section class="main">
@@ -72,7 +74,9 @@
             <li class="main-item">
               <div class="main-item-icon-container">
                 <svg class="main-item-icon" width="64" height="64">
-                  <use href="./images/symbol-defs.svg#icon-main-1-antenna"></use>
+                  <use
+                    href="./images/symbol-defs.svg#icon-main-1-antenna"
+                  ></use>
                 </svg>
               </div>
               <h3 class="main-subtitle">Strategy</h3>
@@ -96,7 +100,9 @@
             <li class="main-item">
               <div class="main-item-icon-container">
                 <svg class="main-item-icon" width="64" height="64">
-                  <use href="./images/symbol-defs.svg#icon-main-3-diagram"></use>
+                  <use
+                    href="./images/symbol-defs.svg#icon-main-3-diagram"
+                  ></use>
                 </svg>
               </div>
               <h3 class="main-subtitle">Diligence</h3>
@@ -476,5 +482,15 @@
         </section>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" data-modal-close class="modal-button-close">
+          <svg class="modal-icon-svg" width="8" height="8">
+            <use href="./images/symbol-defs.svg#icon-modal-cloze-icon"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
