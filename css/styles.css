@@ -637,7 +637,6 @@ button {
   letter-spacing: 0.02em;
   margin-top: 8px;
   color: #434455;
-;
 }
 
 .concept-item-h2-p {
@@ -665,7 +664,7 @@ button {
 
 .backdrop {
   position: fixed;
-  top: 0; 
+  top: 0;
   width: 1440px;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
